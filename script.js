@@ -98,6 +98,31 @@
 
 // 8
 
-let numbers = [5, 6, 7, 8, 9, 10, 11, 12, 15, 50, 65, 67, 70];
-let filteredNumbers = numbers.filter((item) => item % 5 === 0);
-console.log(filteredNumbers);
+// let numbers = [5, 6, 7, 8, 9, 10, 11, 12, 15, 50, 65, 67, 70];
+// let filteredNumbers = numbers.filter((item) => item % 5 === 0);
+// console.log(filteredNumbers);
+
+// N4
+
+// const getProfit = (buyPrice, sellPrice, month) => {
+//     const profit = sellPrice - buyPrice;
+//     const profitPercentage = (profit / buyPrice) * 100;
+//     const profitFixed = profitPercentage.toFixed(2);
+//     const addPercentageSign = `${profitFixed}%`;
+//     return { addPercentageSign, profit, month };
+// };
+
+// const may = getProfit(80.25, 227, "May");
+// const june = getProfit(45.5, 270, "June");
+// const july = getProfit(537, 1235, "July");
+// console.log(may, june, july);
+
+// N5
+
+// let numbers = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+// let filtersNumbersArrow = numbers.filter((item) => item % 2 === 0);
+// const filterNumbers = numbers.filter(function (number) {
+//     return numbers % 2 === 0;
+// });
+
+
